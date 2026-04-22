@@ -8,6 +8,9 @@
    <link rel="stylesheet" href="./src/output.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
    <script>
       tailwind.config = {
          theme: {
@@ -22,7 +25,8 @@
 </head>
 
 <body>
-   <header class="flex max-w-[1300px] m-auto lg:justify-evenly justify-between p-[20px] h-[100px] items-center font-poppins">
+   <header
+      class="flex max-w-[1300px] m-auto lg:justify-evenly justify-between p-[20px] h-[100px] items-center font-poppins">
       <img src="./img/Logo (7).png" alt="">
       <div class="lg:flex gap-[20px] hidden text-[14px] text-[#2D2F30] font-medium">
          <p>CONTACT</p>
@@ -33,6 +37,44 @@
       <input class="p-[10px] hidden lg:block" type="text" placeholder="🔎">
       <div class="block lg:hidden text-[30px] hover:text-[#094b72] hover:text-[33px]">≡</div>
    </header>
+
+
+   <section class="flex justify-evenly max-w-[1300px] lg:flex-row flex-col m-auto p-[20px] lg:px-[40px]">
+      <aside class="lg:w-[70%] w-[100%] flex flex-col h-[700px]  justify-evenly items-center text-center lg:text-start lg:items-start">
+         <div class="flex lg:w-[500px] w-[100%] bg-[#e7f6ff] justify-evenly py-[10px] items-center rounded-[26.5px]">
+            <button
+               class="bg-[#094b72] py-[5px] px-[30px] text-white rounded-[15px] hover:bg-[white] hover:text-[#094b72]">New</button>
+            <p class="text-[#193E6C] text-[12px] lg:text-[18px]">Stay connected to the upcoming & Recent jobs</p>
+         </div>
+         <h1 class="lg:text-[80px] font-serif text-[#094B72] text-[40px]">Your Solution Legal Consultacy</h1>
+         <p class="leading-[159%] text-[#4F4F4F] text-[24px] font-medium">We are here to help you take care of your
+            legality with the best service especially for you.</p>
+         <button
+            class="p-[20px] bg-[#094B72] text-white rounded-[8px] hover:bg-white hover:text-[#094B72] border-[#094B72] border-1 hover:border-1 hover:border-[#094B72]">GET
+            STARTED</button>
+         <p class="leading-[159%] text-[#969595] lg:text-[20px] text-[19.5px] font-medium">Trusted by 10+ companies in indonesia</p>
+         <div class="lg:w-[250px] w-[90%] flex  items-center gap-[20px] flex-wrap justify-between">
+            <img src="./img/Airbnb Logo.png" alt="">
+            <img src="./img/Hubspot Logo.png" alt="">
+            <img src="./img/Microsoft Logo.png" alt="">
+            <img src="./img/Google Logo.png" alt="">
+         </div>
+      </aside>
+      <aside class="relative">
+         <img src="./img/Hero Image.png" alt="">
+         <div class="bg-[#f4f7fb00] p-2 flex justify-center items-center font-sans absolute bottom-[0.5px] lg:left-[130px] left-[50px]">
+            <div class="bg-white px-12 py-2 rounded-2xl shadow-md text-center max-w-sm">
+               <h3 class="text-[#33475b] text-2xl font-bold mb-2">
+                  Tiara Andini
+               </h3>
+               <p class="text-gray-400 text-lg">
+                  -Lawyer
+               </p>
+            </div>
+         </div>
+      </aside>
+
+   </section>
 </body>
 
 </html>
