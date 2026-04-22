@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./src/output.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               fontFamily: {
+                  poppins: ['Poppins', 'sans-serif'],
+               },
+            },
+         },
+      }
+   </script>
+</head>
+
+<body>
+   <header class="flex max-w-[1300px] m-auto lg:justify-evenly justify-between p-[20px] h-[100px] items-center font-poppins">
+      <img src="./img/Logo (7).png" alt="">
+      <div class="lg:flex gap-[20px] hidden text-[14px] text-[#2D2F30] font-medium">
+         <p>CONTACT</p>
+         <p>TESTIMONIALS</p>
+         <p>ABOUT</p>
+         <p>TERMS</p>
+      </div>
+      <input class="p-[10px] hidden lg:block" type="text" placeholder="🔎">
+      <div class="block lg:hidden text-[30px] hover:text-[#094b72] hover:text-[33px]">≡</div>
+   </header>
+</body>
+
+</html>

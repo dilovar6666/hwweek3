@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  },
+  "scripts": {
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  }
+}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./*.{html,js}"
+  ], // здесь указаны ваши пути к файлам
+  theme: {
+    extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'
+        ],
+      },
+    },
+  },
+  plugins: [],
+}
